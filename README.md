@@ -8,6 +8,12 @@ A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SE
 
 ![Sleek Jekyll Theme](./sleek.jpg)
 
+## Changes
+
+Changes relative to https://github.com/janczizikow/sleek/commit/25bad49:
+
+* Add header.image and header.teaser keys for non-gulp images.
+
 ## Features
 
 * Compatible with [Github Pages](https://pages.github.com/)

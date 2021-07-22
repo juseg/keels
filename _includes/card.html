@@ -19,6 +19,11 @@
         />
         <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_thumb.jpg" alt="{{ post.title }}"></noscript>
       </figure>
+    {% else if post.header.teaser %}
+      <figure class="post-card__thumb">
+        <img src="{{ post.header.teaser | relative_url }}" class="lazyload blur" alt="{{post.title}}" />
+        <noscript><img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}"></noscript>
+      </figure>
     {% else %}
       <figure class="post-card__thumb">
         <div class="dark-bg"></div>

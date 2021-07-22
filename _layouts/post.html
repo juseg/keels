@@ -21,6 +21,8 @@ layout: compress
 
   {% if page.featured-img %}
   <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ page.featured-img }}.jpg">
+  {% else if page.header.image %}
+  <div class="hero lazyload" data-bg="{{ page.header.image | relative_url }}">
   {% else %}
   <div class="hero dark-bg">
   {% endif %}
