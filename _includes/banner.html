@@ -20,6 +20,7 @@
       </div>
     {% endif %}
     <h1 class="hero__title">{{ page.title }}</h1>
+    {% if post %}
     <p class="hero__meta">
       <span>
         <time>{{ page.date | date_to_string }}</time>&nbsp;&middot;
@@ -33,5 +34,6 @@
           {% endif %} read
       </span>
     </p>
+    {% endif %}
   </div>
 </div>
