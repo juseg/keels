@@ -6,4 +6,5 @@
 #
 layout: default
 title: Sleek Jekyll Theme
+featured-img: sleek_lg
 ---

@@ -15,6 +15,7 @@ Changes relative to https://github.com/janczizikow/sleek/commit/25bad49:
 * Add header.image and header.teaser keys for non-gulp images.
 * Replace gulp sass with jekyll-sass-converter plugin.
 * Use common banner (image hero) logic in all layouts.
+* Replace site.hero_img with homepage frontmatter properties.
 
 ## Features
 
