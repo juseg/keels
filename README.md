@@ -13,6 +13,7 @@ A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SE
 Changes relative to https://github.com/janczizikow/sleek/commit/25bad49:
 
 * Add header.image and header.teaser keys for non-gulp images.
+* Replace gulp sass with jekyll-sass-converter plugin.
 
 ## Features
 
