@@ -25,6 +25,9 @@ layout: compress
       <div class="container">
         <div class="page-content">
 
+          {% unless page.featured-img or page.header.image %}
+            <h1>{{ page.title }}</h1>
+          {% endunless %}
           {{ content }}
 
         </div>

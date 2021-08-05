@@ -1,10 +1,9 @@
 {% if page.featured-img %}
 <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ page.featured-img }}.jpg">
-{% else if page.header.image %}
+{% elsif page.header.image %}
 <div class="hero lazyload" data-bg="{{ page.header.image | relative_url }}">
-{% else %}
-<div class="hero--small">
 {% endif %}
+{% if page.featured-img or page.header.image %}
   <div class="hero__wrap">
     {% if post.categories or page.categories %}
       <div class="hero__categories">
@@ -37,3 +36,6 @@
     {% endif %}
   </div>
 </div>
+{% else %}
+<div class="hero--empty"></div>
+{% endif %}

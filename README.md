@@ -16,6 +16,7 @@ Changes relative to https://github.com/janczizikow/sleek/commit/25bad49:
 * Replace gulp sass with jekyll-sass-converter plugin.
 * Use common banner (image hero) logic in all layouts.
 * Replace site.hero_img with homepage frontmatter properties.
+* Replace color banner with content title for pages without header image.
 
 ## Features
 
