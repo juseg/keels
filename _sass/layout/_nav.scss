@@ -33,7 +33,6 @@
 }
 
 .header__logo {
-  display: flex;
   height: 100%;
   overflow: hidden;
   padding: 19px 0;
@@ -58,8 +57,7 @@
 
 .header__inner {
   display: flex;
-  align-items: center;
-  height: 3.75em;
+  height: 5em;
   justify-content: space-between;
 }
 
@@ -76,10 +74,10 @@
 
 .header__link {
   color: $text-color;
+  font-variant: small-caps;
   padding: .938rem 0;
   border-top: 1px solid $border;
 }
-
 
 .header__toggle {
   display: flex;
@@ -195,4 +193,22 @@
       transition: transform .2s ease-in-out;
     }
   }
+}
+
+.header__title {
+  margin-right: auto
+}
+
+.header__title a {
+  color: $text-color;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.header__title a:hover {
+  color: $primary
+}
+
+.header__title span {
+  color: #838c8d
 }

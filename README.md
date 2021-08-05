@@ -18,6 +18,7 @@ Changes relative to https://github.com/janczizikow/sleek/commit/25bad49:
 * Replace site.hero_img with homepage frontmatter properties.
 * Replace color banner with content title for pages without header image.
 * Allow page contents above post grid in the default layout.
+* Add site title and tagline in header, style changes.
 
 ## Features
 

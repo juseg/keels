@@ -6,6 +6,10 @@
           {% include logo.svg %}
         </div>
       </a>
+      <div class="header__title">
+        <a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+        <span>{{ site.tagline }}</span>
+      </div>
       <nav class="header__links">
         <div class="container header__links-wrapper">
           {% for item in site.navigation %}

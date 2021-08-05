@@ -20,13 +20,11 @@ social:
     - https://keybase.io/benbalter
 
 # THEME SETTINGS
+tagline: A fork of Jekyll theme Sleek
 navigation: # Navigation links
   - {name: 'Home', link: '/'}
   - {name: 'About', link: '/about'}
   - {name: 'Contact', link: '/contact'}
-
-tagline: >
-  Modern Jekyll theme focused on speed performance &amp; SEO best practices
 
 email: your-email@domain.com # email for form submission
 
