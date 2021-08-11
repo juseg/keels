@@ -22,10 +22,7 @@
     {% include gtm.html %}
 
   {% endif %}
+  <!-- defer loading noncritical css (https://www.filamentgroup.com/lab/load-css-simpler/) -->
   <link rel="stylesheet" href="{{ '/assets/css/critical.css' | relative_url }}">
-  <link rel="preload" href="{{ '/assets/css/noncritical.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ '/assets/css/noncritical.css' | relative_url }}"></noscript>
-  <script type="text/javascript">
-   {% include loadCss.js %}
-  </script>
+  <link rel="stylesheet" href="{{ '/assets/css/noncritical.css' | relative_url }}" media="print" onload="this.media='all'">
 </head>
