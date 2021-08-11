@@ -19,6 +19,7 @@ Changes relative to https://github.com/janczizikow/sleek/commit/25bad49:
 * Replace color banner with content title for pages without header image.
 * Allow page contents above post grid in the default layout.
 * Add site title and tagline in header, style changes.
+* Replace gulp with sass to generate critical and noncritical CSS.
 
 ## Features
 

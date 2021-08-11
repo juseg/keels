@@ -1,4 +1,4 @@
-@charset "UTF-8";
+// Critical CSS affecting element positions on first page
 
 // 1. Configuration and helpers
 @import
@@ -18,21 +18,13 @@
 // 4. Layout
 @import
   "layout/grid",
-  "layout/nav",
-  "layout/footer";
+  "layout/nav";
 
 // 5. Components
 @import
-  "components/btn",
   "components/card",
-  "components/label",
-  "components/pagination",
-  "components/form",
-  "components/modal",
-  "components/table",
-  "components/syntax";
+  "components/label";
 
 // 6. Page-specific styles
 @import
-  "pages/page",
-  "pages/post";
+  "pages/page";
