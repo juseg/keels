@@ -1,12 +1,8 @@
-# Sleek
+# Keels
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-sleek.svg)](https://badge.fury.io/rb/jekyll-sleek) [![Build Status](https://travis-ci.org/janczizikow/sleek.svg?branch=master)](https://travis-ci.org/janczizikow/sleek) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/janczizikow/sleek)
-
-A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SEO best practices.
-
-> ⚠️ This theme is no longer actively maintained.
-
-![Sleek Jekyll Theme](./sleek.jpg)
+A fork of Jekyll theme Sleek, developed through trial-and-error towards a
+compromise between speed and simplicity, and increased compatibility as
+remote theme for Github pages.
 
 ## Changes
 
@@ -20,6 +16,18 @@ Changes relative to https://github.com/janczizikow/sleek/commit/25bad49:
 * Allow page contents above post grid in the default layout.
 * Add site title and tagline in header, style changes.
 * Replace gulp with sass to generate critical and noncritical CSS.
+
+> ⚠️ The rest of this documentation is related to the original theme
+> https://github.com/janczizikow/sleek/, which is no longer maintained.
+> Some sections are no longer relevant.
+
+# Sleek
+
+[![Gem Version](https://badge.fury.io/rb/jekyll-sleek.svg)](https://badge.fury.io/rb/jekyll-sleek) [![Build Status](https://travis-ci.org/janczizikow/sleek.svg?branch=master)](https://travis-ci.org/janczizikow/sleek) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/janczizikow/sleek)
+
+A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SEO best practices.
+
+![Sleek Jekyll Theme](./sleek.jpg)
 
 ## Features
 
