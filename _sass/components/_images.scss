@@ -4,10 +4,9 @@ figure {
     text-align: center}
 figure img {
     border-radius: 4px;
-    box-shadow: 0 1px 3px #0003;
-    }
-figure img:hover,
-figure img:focus {
+    box-shadow: 0 1px 3px #0003}
+figure a img:hover,
+figure a img:focus {
     box-shadow: 0 2px 40px 0 #0003}
 figure figcaption {
     color: $grey;
