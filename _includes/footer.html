@@ -20,7 +20,8 @@
     <span>&copy; {{ site.time | date: '%Y' }} {{ site.title | escape }}. All rights reserved.</span>
   </div>
 </footer>
-<script async src="{{ "/assets/js/bundle.js" | relative_url }}"></script>
+<!-- FIXME bundle.js contains an old version of jquery -->
+<script src="{{ "/assets/js/bundle.js" | relative_url }}"></script>
 {% if site.service_worker %}
 <script async>
   if ('serviceWorker' in navigator) {
@@ -32,4 +33,10 @@
     });
   }
 </script>
+{% endif %}
+
+<!-- optional javascript -->
+{% if page.scripts contains "magnificpopup" %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script>$(document).ready(function() {$('figure > a').magnificPopup({type:'image', gallery:{enabled:true}});});</script>
 {% endif %}
