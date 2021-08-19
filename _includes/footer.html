@@ -38,5 +38,8 @@
 <!-- optional javascript -->
 {% if page.scripts contains "magnificpopup" %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-<script>$(document).ready(function() {$('figure > a').magnificPopup({type:'image', gallery:{enabled:true}});});</script>
+<script>$(document).ready(function() {
+  $('figure > a').magnificPopup({type:'image', gallery:{enabled:true}});
+  $('figure.iframe > a').magnificPopup({type: 'iframe', gallery:{enabled:true}});
+;});</script>
 {% endif %}
