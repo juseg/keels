@@ -1,18 +1,19 @@
 // Figures
 figure {
     text-align: center}
-figure img {
-    border-radius: 4px}
+figure > a > img,
+figure > img {
+    border-radius: 4px;
+    box-shadow: 0 1px 3px #0003}
 figure > a,
 figure > img {
-    box-shadow: 0 1px 3px #0003;
     margin-bottom: 0.5em}
 figure > a,
 figure > a:hover,
 figure > a:focus {
     border: 0}
-figure > a:hover,
-figure > a:focus {
+figure > a:hover img,
+figure > a:focus img{
     box-shadow: 0 2px 40px 0 #0003}
 figure > figcaption {
     color: $grey;
