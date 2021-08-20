@@ -7,7 +7,7 @@
 <figure class="{{ include.class | default: "gallery" }}">
   {% for item in gallery %}
     {% if item.target %}
-    <a data-fslightbox href="{{ item.target | relative_url }}"
+    <a href="{{ item.target | relative_url }}"
        {% if item.title %}title="{{ item.title }}"{% endif %}>
     {% endif %}
       <img src="{{ item.image | relative_url }}"
